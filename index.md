@@ -12,7 +12,8 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 * 📝 **Read my thoughts:** [Visit My Blog](https://robiulsunnyemon.github.io/my-blog/)
 * 💼 **Connect on LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/robiulsunnyemon)
 * 🛠️ **View GitHub Projects:** [GitHub Repositories](https://github.com/robiulsunnyemon?tab=repositories)
-
+<br>
+<br>
 ## Technical Toolkit
 
 | Area | Technologies |
@@ -25,7 +26,6 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 | **DevOps & Infrastructure** | Docker, Docker Compose, CI/CD Pipelines, LiveKit |
 | **Architectural Concepts** | Microservices, Service Discovery, Load Balancing, Circuit Breakers, TDD, Clean Architecture |
 
-<br>
 <br>
 ## 📂 Featured Projects
 
