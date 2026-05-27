@@ -68,4 +68,10 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     float: none !important; 
     padding-top: 20px !important; 
   }
+  footer, #footer, .wrapper footer, [id*="footer"] { 
+    position: static !important; 
+    display: block !important;
+    margin-top: 40px !important;
+    padding: 20px 0 !important;
+  }
 </style>
