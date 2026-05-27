@@ -2,6 +2,11 @@
 title: Robiul Sunny Emon | Backend Engineer
 ---
 
+<style>
+  header, .header, #header, .page-header { display: none !important; }
+  section.main-content { padding-top: 20px !important; }
+</style>
+
 # Hello, I'm Robiul Sunny Emon 👋
 ### Junior Backend Engineer & Software Architect Enthusiast
 
@@ -11,7 +16,7 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 
 ## 🚀 Quick Links
 * 📝 **Read my thoughts:** [Visit My Blog](https://robiulsunnyemon.github.io/my-blog/)
-* 💼 **Connect on LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/robiulsunnyemon) *(আপনার লিংকটি দিন)*
+* 💼 **Connect on LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/robiulsunnyemon)
 * 🛠️ **View GitHub Projects:** [GitHub Repositories](https://github.com/robiulsunnyemon?tab=repositories)
 
 ---
@@ -51,7 +56,7 @@ I write about software engineering, backend architecture, and Python/Java ecosys
 ---
 
 ## 📫 Get In Touch
-* **Email:** robiulsunnyemon@gmail.com *(আপনার ইমেইলটি দিন)*
+* **Email:** robiulsunnyemon@gmail.com
 * **Location:** Dhaka, Bangladesh
 
 ---
