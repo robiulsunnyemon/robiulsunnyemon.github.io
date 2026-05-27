@@ -9,15 +9,15 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 
 <br>
 
-## Quick Links
+## 🚀 Quick Links
 * 📝 **Read my thoughts:** [Visit My Blog](https://robiulsunnyemon.github.io/my-blog/)
 * 💼 **Connect on LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/robiulsunnyemon)
 * 🛠️ **View GitHub Projects:** [GitHub Repositories](https://github.com/robiulsunnyemon?tab=repositories)
 
 <br>
----
-## Technical Toolkit
----
+
+## 🛠️ Technical Toolkit
+
 | Area | Technologies |
 | :--- | :--- |
 | **Backend Frameworks** | Python (FastAPI, Django), Java (Spring Boot) |
@@ -29,9 +29,9 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 | **Architectural Concepts** | Microservices, Service Discovery, Load Balancing, Circuit Breakers, TDD, Clean Architecture |
 
 <br>
----
+
 ## 💼 Professional Experience
----
+
 ### Associate Software Engineer
 **MAK Tech Solutions** • Full-time  
 *Jul 2025 – Present • Dhaka, Bangladesh (On-site)*
@@ -56,7 +56,7 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 * Enforced modular architecture practices to maintain a decoupling of core services and enhanced overall system testability.
 
 <br>
----
+
 ## 📂 Featured Projects
 ---
 ### 🧠 ExamGuru
@@ -95,7 +95,7 @@ I write about software engineering, backend architecture, and Python/Java ecosys
 
 <style>
   /* ১. গুগল ফন্ট ইম্পোর্ট */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;500;600;700&display=swap');
 
   /* ২. গিটহাবের ডিফল্ট হেডার এবং ফুটার এলিমেন্ট চিরতরে রিমুভ (লাইন সহ) */
   header, .header, #header, .page-header, nav, .nav, footer, #footer, .wrapper footer, small, .downloads { 
@@ -158,7 +158,8 @@ I write about software engineering, backend architecture, and Python/Java ecosys
   h2 {
     border-bottom: 1px solid #21262d !important;
     padding-bottom: 8px !important;
-    margin-top: 30px !important;
+    margin-top: 40px !important; /* সেকশনের উপরে ক্লিন স্পেসিফিকেশন */
+    margin-bottom: 20px !important;
   }
   
   a {
@@ -238,10 +239,10 @@ I write about software engineering, backend architecture, and Python/Java ecosys
       padding: 20px 15px !important; 
     }
     table, thead, tbody, th, td, tr { 
-      display: block !important; /* মোবাইলে টেবিলকে রেসপনসিভ ব্লক করা */
+      display: block !important; 
     }
     th {
-      display: none !important; /* মোবাইলে হেডার হাইড */
+      display: none !important; 
     }
     td:first-child {
       width: 100% !important;
