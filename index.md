@@ -2,7 +2,6 @@
 title: Robiul Sunny Emon | Backend Engineer
 ---
 
-
 # Hello, I'm Robiul Sunny Emon 👋
 ### Junior Backend Engineer & Software Architect Enthusiast
 
@@ -57,3 +56,16 @@ I write about software engineering, backend architecture, and Python/Java ecosys
 
 ---
 <p align="center">© 2026 Robiul Sunny Emon. Built with GitHub Pages.</p>
+
+<style>
+  /* গিটহাবের ডিফল্ট এবং মিনিমাল থিমের হেডার হাইড করার জন্য */
+  header, .header, #header, .page-header, .wrapper header { 
+    display: none !important; 
+  }
+  /* কন্টেন্ট এরিয়াকে ফুল-উইডথ ও প্রপার মার্জিন দেওয়ার জন্য */
+  section, .wrapper section { 
+    width: 100% !important; 
+    float: none !important; 
+    padding-top: 20px !important; 
+  }
+</style>
