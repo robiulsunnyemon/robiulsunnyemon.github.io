@@ -57,7 +57,7 @@ I write about software engineering, backend architecture, and Python/Java ecosys
 
 <p align="center">© 2026 Robiul Sunny Emon. Built with GitHub Pages.</p>
 
-<style>
+<!-- <style>
   /* গিটহাবের ডিফল্ট এবং মিনিমাল থিমের হেডার হাইড করার জন্য */
   header, .header, #header, .page-header, .wrapper header { 
     display: none !important; 
@@ -95,6 +95,79 @@ I write about software engineering, backend architecture, and Python/Java ecosys
       padding: 10px !important;
     }
     /* ছোট স্ক্রিনের টপ রেভিনিউ বর্ডার রিমুভাল */
+    section {
+      border-top: none !important;
+      box-shadow: none !important;
+    }
+  }
+</style> -->
+
+<style>
+  /* ১. গুগল ফন্ট থেকে Poppins ফন্ট ইম্পোর্ট (Light, Regular, Medium, Semi-Bold, Bold) */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  /* ২. গিটহাবের ডিফল্ট এবং মিনিমাল থিমের হেডার হাইড করার জন্য */
+  header, .header, #header, .page-header, .wrapper header, nav, .nav { 
+    display: none !important; 
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* ৩. কন্টেন্ট এরিয়াকে ফুল-উইডথ ও প্রপার মার্জিন দেওয়ার জন্য */
+  section, .wrapper section { 
+    width: 100% !important; 
+    max-width: 100% !important;
+    float: none !important; 
+    padding: 20px 10px !important; 
+  }
+
+  /* ৪. ফুটার ফিক্সড পজিশন ভেঙে নরমাল করার জন্য */
+  footer, #footer, .wrapper footer, [id*="footer"] { 
+    position: static !important; 
+    display: block !important;
+    margin-top: 40px !important;
+    padding: 20px 0 !important;
+    border: none !important;
+  }
+
+  /* ৫. গিটহাব ডার্ক থিম কালার এবং কাস্টম Poppins ফন্ট অ্যাপ্লাই */
+  body, html, .wrapper {
+    background-color: #0d1117 !important; /* গিটহাব ডার্ক থিম কালার */
+    color: #c9d1d9 !important; /* হালকা গ্রে টেক্সট */
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif !important; /* কাস্টম ফন্ট */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* শিরোনামগুলো পিওর হোয়াইট ও বোল্ড */
+  h1, h2, h3, h4, strong {
+    color: #ffffff !important; 
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+  }
+  
+  /* ডার্ক মোডে লিংকের কালার */
+  a {
+    color: #58a6ff !important;
+  }
+  
+  /* টেবিল বর্ডার ও ব্যাকগ্রাউন্ড ডার্ক করা */
+  table, th, td {
+    border-color: #30363d !important; 
+    background-color: #161b22 !important;
+    color: #c9d1d9 !important;
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  /* ৬. মোবাইল ও ট্যাবলেট মিডিয়া কোয়েরি ফিক্স */
+  @media print, screen and (max-width: 960px) {
+    body, .wrapper {
+      background-color: #0d1117 !important;
+    }
+    .wrapper {
+      width: auto !important;
+      padding: 10px !important;
+    }
+    /* ছোট স্ক্রিনের টপ বর্ডার রিমুভাল */
     section {
       border-top: none !important;
       box-shadow: none !important;
