@@ -49,7 +49,7 @@ I write about software engineering, backend architecture, and Python/Java ecosys
 * **Email:** robiulsunnyemon@gmail.com
 * **Location:** Dhaka, Bangladesh
 
-<!-- <p align="center">© 2026 Robiul Sunny Emon. Built with GitHub Pages.</p> -->
+<p align="center">© 2026 Robiul Sunny Emon. Built with GitHub Pages.</p>
 
 <style>
   /* ১. গুগল ফন্ট থেকে Poppins ফন্ট ইম্পোর্ট */
@@ -71,6 +71,8 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     margin: 0 auto !important;
     padding: 20px 40px !important; 
     box-sizing: border-box !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
   /* ৪. কন্টেন্ট এরিয়া রিসাইজ */
@@ -80,17 +82,22 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     float: none !important; 
     padding: 0px !important; 
     margin: 0 !important;
+    border: none !important;
   }
 
-  /* ৫. গিটহাবের ডিফল্ট ফুটার এবং নিচের সাদা ডিভাইডার লাইন চিরতরে হাইড করার ট্রিক */
-  footer, #footer, .wrapper footer, [id*="footer"], small, .downloads { 
+  /* ৫. 🛑 ফুটার এবং নিচের সাদা লাইন তৈরির মূল শত্রু (Pseudo-elements) চিরতরে ধ্বংস করার ট্রিক */
+  footer, #footer, .wrapper footer, [id*="footer"], small, .downloads,
+  body:after, body:before, .wrapper:after, .wrapper:before, section:after, section:before { 
     display: none !important; 
     visibility: hidden !important;
     height: 0 !important;
+    width: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
     border: none !important;
+    background: none !important; /* লাইন জেনারেট করার ব্যাকগ্রাউন্ড ইমেজ বা কালার ব্লক */
     opacity: 0 !important;
+    content: none !important; /* সিউডো এলিমেন্টের কন্টেন্ট রিমুভাল */
   }
 
   /* ৬. গিটহাব ডার্ক থিম কালার এবং কাস্টম Poppins ফন্ট অ্যাপ্লাই */
@@ -101,6 +108,7 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     -webkit-font-smoothing: antialiased;
     padding: 0 !important;
     margin: 0 !important;
+    border: none !important;
   }
   
   h1, h2, h3, h4, strong {
@@ -156,19 +164,19 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     transition: background-color 0.15s ease !important;
   }
 
-  /* ৭. মোবাইল ও ট্যাবলেট রেসপনসিভ মিডিয়া কোয়েরি ফিক্স (নিচের গ্যাপ দূর করার মূল জায়গা) */
+  /* ৭. মোবাইল ও ট্যাবলেট রেসপনসিভ মিডিয়া কোয়েরি ফিক্স */
   @media print, screen and (max-width: 960px) {
     .wrapper {
       width: 100% !important;
       padding: 15px 20px !important; 
+      border: none !important;
     }
     section {
       border-top: none !important;
       box-shadow: none !important;
     }
-    /* মোবাইল মোডে গিটহাবের থিম জেনারেটেড অবশিষ্টাংশ পুশ করে গায়েব করা */
-    body:after {
-      display: none !important;
+    body, html, .wrapper, section {
+      background-color: #0d1117 !important;
     }
   }
 </style>
