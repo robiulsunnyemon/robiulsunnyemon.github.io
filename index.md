@@ -118,7 +118,7 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     width: 100% !important; 
     max-width: 100% !important;
     float: none !important; 
-    padding: 20px 10px !important; 
+    padding: 5px 5px !important; 
   }
 
   /* ৪. ফুটার ফিক্সড পজিশন ভেঙে নরমাল করার জন্য */
