@@ -17,10 +17,11 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 | Area | Technologies |
 | :--- | :--- |
 | **Backend Frameworks** | Python (FastAPI, Django), Java (Spring Boot) |
-| **Frontend & Mobile** | Flutter, HTML5, CSS3, JavaScript |
-| **Databases & Caching** | MongoDB, Redis, PostgreSQL |
+| **Message Brokers & Task Queues** | Apache Kafka, RabbitMQ, Celery |
+| **Databases & Caching** | PostgreSQL, MongoDB, Redis |
 | **AI & Computer Vision** | LangChain (RAG Ecosystem), YOLOv8 |
-| **DevOps & Tools** | Docker, Docker Compose, CI/CD Pipelines, LiveKit |
+| **Frontend & Mobile** | Flutter, HTML5, CSS3, JavaScript |
+| **DevOps & Infrastructure** | Docker, Docker Compose, CI/CD Pipelines, LiveKit |
 | **Architectural Concepts** | Microservices, Service Discovery, Load Balancing, Circuit Breakers, TDD, Clean Architecture |
 
 ## 📂 Featured Projects
@@ -106,11 +107,47 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     color: #58a6ff !important;
   }
   
-  table, th, td {
-    border-color: #30363d !important; 
-    background-color: #161b22 !important;
-    color: #c9d1d9 !important;
+/* --- টেবিল স্টাইলিং ও মডার্ন বর্ডারিং --- */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 25px 0 !important;
     font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    border-radius: 6px !important;
+    overflow: hidden !important; /* বর্ডারের কোণাগুলো স্মুথ করার জন্য */
+    border: 1px solid #30363d !important;
+  }
+
+  th {
+    background-color: #161b22 !important; /* হেডার ব্যাকগ্রাউন্ড একটু গাঢ় ডার্ক */
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 12px 16px !important;
+    border-bottom: 2px solid #30363d !important;
+    text-transform: uppercase !important; /* হেডার লেখাগুলো প্রফেশনাল ক্যাপিটাল লেটার */
+    letter-spacing: 0.05em !important;
+    font-size: 12px !important;
+  }
+
+  td {
+    padding: 14px 16px !important; /* লেখার চারপাশে সুন্দর খালি জায়গা */
+    border-bottom: 1px solid #21262d !important; /* ভেতরের হালকা ডিভাইডার লাইন */
+    color: #c9d1d9 !important;
+    background-color: #0d1117 !important; /* বডি ব্যাকগ্রাউন্ডের সাথে ম্যাচিং */
+  }
+
+  /* মাউস নিলে রো-গুলো হালকা হাইলাইট হবে */
+  tr:hover td {
+    background-color: #161b22 !important; 
+    transition: background-color 0.2s ease !important;
+  }
+
+  /* প্রথম কলামের ক্যাটাগরিগুলোকে আলাদা ইনটেনসিটি দেওয়া */
+  td:first-child {
+    color: #58a6ff !important; /* এরিয়াগুলোর নাম সুন্দর টেক-ব্লু কালার হবে */
+    font-weight: 500 !important;
+    width: 30% !important; /* বামের কলামের জন্য স্ট্যান্ডার্ড উইডথ */
   }
 
   /* ৭. মোবাইল ও ট্যাবলেট রেসপনসিভ মিডিয়া কোয়েরি ফিক্স */
