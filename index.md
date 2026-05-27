@@ -1,12 +1,5 @@
-<style>
-  header, .header, #header { display: none !important; }
-  section { padding-top: 30px !important; }
-</style>
-
 
 ---
-layout: default
-theme: jekyll-theme-cayman
 title: Robiul Sunny Emon | Backend Engineer
 ---
 
