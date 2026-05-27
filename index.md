@@ -9,14 +9,14 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 
 <br>
 
-## 🚀 Quick Links
+## Quick Links
 * 📝 **Read my thoughts:** [Visit My Blog](https://robiulsunnyemon.github.io/my-blog/)
 * 💼 **Connect on LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/robiulsunnyemon)
 * 🛠️ **View GitHub Projects:** [GitHub Repositories](https://github.com/robiulsunnyemon?tab=repositories)
 
 <br>
 
-## 🛠️ Technical Toolkit
+## Technical Toolkit
 
 | Area | Technologies |
 | :--- | :--- |
