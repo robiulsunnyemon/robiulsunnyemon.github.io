@@ -15,9 +15,9 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 * 🛠️ **View GitHub Projects:** [GitHub Repositories](https://github.com/robiulsunnyemon?tab=repositories)
 
 <br>
-
+---
 ## Technical Toolkit
-
+---
 | Area | Technologies |
 | :--- | :--- |
 | **Backend Frameworks** | Python (FastAPI, Django), Java (Spring Boot) |
@@ -29,10 +29,10 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 | **Architectural Concepts** | Microservices, Service Discovery, Load Balancing, Circuit Breakers, TDD, Clean Architecture |
 
 <br>
-
+---
 ## 💼 Professional Experience
-
-### 🚀 Associate Software Engineer
+---
+### Associate Software Engineer
 **MAK Tech Solutions** • Full-time  
 *Jul 2025 – Present • Dhaka, Bangladesh (On-site)*
 * Engineered high-performance, scalable backend architectures and developed enterprise-grade software solutions using **Python (FastAPI, Django)** and **Java (Spring Boot)**.
@@ -41,7 +41,7 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 
 <br>
 
-### 💻 Software Developer
+### Software Developer
 **CodeAlpha** • Internship  
 *Feb 2025 – Sep 2025 • Remote*
 * Participated actively in the complete **Software Development Life Cycle (SDLC)**, delivering reliable code components for web backend systems.
@@ -49,16 +49,16 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 
 <br>
 
-### 🌐 Software Developer
+### Software Developer
 **OmegaSoft BD** • Internship  
 *Feb 2025 – Jul 2025 • Remote*
 * Developed a scalable SaaS-based POS (Point of Sale) system tailored for Small and Medium Enterprises (SMEs), heavily inspired by **Loyverse**.
 * Enforced modular architecture practices to maintain a decoupling of core services and enhanced overall system testability.
 
 <br>
-
+---
 ## 📂 Featured Projects
-
+---
 ### 🧠 ExamGuru
 An AI-powered academic platform engineered using **LangChain** and **Retrieval-Augmented Generation (RAG)**. It seamlessly processes the Bangladesh curriculum to auto-generate context-aware examinations.
 
