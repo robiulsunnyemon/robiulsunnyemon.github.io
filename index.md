@@ -74,4 +74,15 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     margin-top: 40px !important;
     padding: 20px 0 !important;
   }
+  body, html, .wrapper {
+    background-color: #0d1117 !important; /* গিটহাব ডার্ক থিম কালার */
+    color: #c9d1d9 !important; /* হালকা গ্রে টেক্সট চোখের শান্তির জন্য */
+  }
+  h1, h2, h3, h4, strong {
+    color: #ffffff !important; /* শিরোনামগুলো পিওর হোয়াইট */
+  }
+  table, th, td {
+    border-color: #30363d !important; /* টেবিল বর্ডার ডার্ক করা */
+    background-color: #161b22 !important;
+  }
 </style>
