@@ -3,19 +3,17 @@ title: Robiul Sunny Emon | Backend Engineer
 ---
 
 # Hello, I'm Robiul Sunny Emon 👋
-### Junior Backend Engineer & Software Architect Enthusiast
+### Backend Engineer & Software Architect Enthusiast
 
 Welcome to my personal homepage! I am a passionate Software Engineer based in Bangladesh, specializing in building scalable, high-performance backend systems and integrating AI solutions. I focus deeply on software architecture, clean code, and robust engineering patterns.
 <br>
 <br>
-<br>
-<br>
-## 🚀 Quick Links
+## Quick Links
 * 📝 **Read my thoughts:** [Visit My Blog](https://robiulsunnyemon.github.io/my-blog/)
 * 💼 **Connect on LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/robiulsunnyemon)
 * 🛠️ **View GitHub Projects:** [GitHub Repositories](https://github.com/robiulsunnyemon?tab=repositories)
 
-## 🛠️ Technical Toolkit
+## Technical Toolkit
 
 | Area | Technologies |
 | :--- | :--- |
@@ -27,6 +25,8 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 | **DevOps & Infrastructure** | Docker, Docker Compose, CI/CD Pipelines, LiveKit |
 | **Architectural Concepts** | Microservices, Service Discovery, Load Balancing, Circuit Breakers, TDD, Clean Architecture |
 
+<br>
+<br>
 ## 📂 Featured Projects
 
 ### 🧠 ExamGuru
@@ -40,10 +40,12 @@ An advanced AI study assistant tailored for medical students. It parses complex 
 
 ### ⚡ Erron
 A high-performance live streaming and instant messaging infrastructure built on top of **LiveKit**, **MongoDB**, and **Redis** for sub-second latency communication.
-
+<br>
+<br>
 ## ✍️ Latest Articles
 I write about software engineering, backend architecture, and Python/Java ecosystems. Check out my latest write-ups over at my **[Live Blog](https://robiulsunnyemon.github.io/my-blog/)**.
-
+<br>
+<br>
 ## 📫 Get In Touch
 * **Email:** robiulsunnyemon@gmail.com
 * **Location:** Dhaka, Bangladesh
