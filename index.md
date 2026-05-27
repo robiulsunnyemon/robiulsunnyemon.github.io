@@ -25,6 +25,25 @@ Welcome to my personal homepage! I am a passionate Software Engineer based in Ba
 | **DevOps & Infrastructure** | Docker, Docker Compose, CI/CD Pipelines, LiveKit |
 | **Architectural Concepts** | Microservices, Service Discovery, Load Balancing, Circuit Breakers, TDD, Clean Architecture |
 
+
+## 💼 Professional Experience
+
+### 🚀 Associate Software Engineer
+**MAK Tech Solutions** • Full-time  
+*Jul 2025 – Present • Dhaka, Bangladesh (On-site)* * Engineered high-performance, scalable backend architectures and developed enterprise-grade software solutions using **Python (FastAPI, Django)** and **Java (Spring Boot)**.
+* Focused deeply on microservices design patterns, optimizing service discovery, and setting up robust containerized environments using **Docker**.
+* Managed front-end integrations and cross-platform alignment utilizing the **Flutter** ecosystem.
+<br>
+### 💻 Software Developer
+**CodeAlpha** • Internship  
+*Feb 2025 – Sep 2025 • Remote* * Participated actively in the complete **Software Development Life Cycle (SDLC)**, delivering reliable code components for web backend systems.
+* Implemented clean code principles and integrated relational/non-relational database layers.
+<br>
+### 🌐 Software Developer
+**OmegaSoft BD** • Internship  
+*Feb 2025 – Jul 2025 • Remote* * Developed a scalable SaaS-based POS (Point of Sale) system tailored for Small and Medium Enterprises (SMEs), heavily inspired by **Loyverse**.
+* Enforced modular architecture practices to maintain a decoupling of core services and enhanced overall system testability.
+<br>
 <br>
 ## 📂 Featured Projects
 
