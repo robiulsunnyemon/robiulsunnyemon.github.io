@@ -2,10 +2,6 @@
 title: Robiul Sunny Emon | Backend Engineer
 ---
 
-<style>
-  header, .header, #header, .page-header { display: none !important; }
-  section.main-content { padding-top: 20px !important; }
-</style>
 
 # Hello, I'm Robiul Sunny Emon 👋
 ### Junior Backend Engineer & Software Architect Enthusiast
