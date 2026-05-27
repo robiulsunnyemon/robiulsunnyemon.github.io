@@ -85,4 +85,19 @@ I write about software engineering, backend architecture, and Python/Java ecosys
     border-color: #30363d !important; /* টেবিল বর্ডার ডার্ক করা */
     background-color: #161b22 !important;
   }
+  /* ৫. মোবাইল ও ট্যাবলেট মিডিয়া কোয়েরি ফিক্স (মোবাইলের টপ লাইন গায়েব করার মূল ম্যাজিক) */
+  @media print, screen and (max-width: 960px) {
+    body, .wrapper {
+      background-color: #0d1117 !important;
+    }
+    .wrapper {
+      width: auto !important;
+      padding: 10px !important;
+    }
+    /* ছোট স্ক্রিনের টপ রেভিনিউ বর্ডার রিমুভাল */
+    section {
+      border-top: none !important;
+      box-shadow: none !important;
+    }
+  }
 </style>
